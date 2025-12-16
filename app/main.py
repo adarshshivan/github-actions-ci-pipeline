@@ -7,6 +7,7 @@ logging.basicConfig(
 
 
 def run():
+    unused_variable = 42
     logging.info("Application started")
     logging.info("Performing basic validation logic")
     logging.info("Application completed successfully")
