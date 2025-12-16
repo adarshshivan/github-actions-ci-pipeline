@@ -31,3 +31,8 @@ jobs:
       - name: Run application
         run: |
           python app/main.py
+
+      - name: Build Docker image
+        run: |
+          docker build -t ci-pipeline-image .
+
